@@ -1,0 +1,26 @@
+.intro__text {
+  max-width: 720px;
+  text-align: left;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 142%;
+  margin: 40px 0 0;
+}
+
+.intro__text:nth-of-type(2) {
+  text-align: right;
+  margin-top: 10px;
+}
+
+.intro__text:last-of-type {
+  margin-top: 32px;
+  font-size: 16px;
+  line-height: 163%;
+}
+
+@media screen and (max-width: 320px) {
+  .intro__text:first-of-type {
+    font-size: 24px;
+    line-height: 125%;
+  }
+}

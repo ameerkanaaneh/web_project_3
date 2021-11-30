@@ -1,0 +1,21 @@
+.place__text {
+  grid-area: "text";
+  text-align: left;
+  grid-row: 2 / 4;
+  grid-column: 2 / 3;
+}
+
+@media screen and (max-width: 425px) {
+  .place__text {
+    grid-row: auto;
+    grid-column: auto;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__text {
+    padding: 0 16px;
+    grid-row: auto;
+    grid-column: auto;
+  }
+}

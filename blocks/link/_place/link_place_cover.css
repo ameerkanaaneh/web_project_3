@@ -1,0 +1,12 @@
+.link_place_cover {
+  align-self: center;
+  width: fit-content;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 410px) {
+  .link_place_cover {
+    padding: 13px 20px;
+    margin: 0;
+  }
+}
