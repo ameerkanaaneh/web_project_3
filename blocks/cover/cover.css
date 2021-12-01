@@ -9,24 +9,32 @@
   margin: 92px auto 0;
   align-items: center;
   position: relative;
-  height: 740px;
+  min-height: 740px;
   max-width: 1184px;
   width: 100%;
 }
 
-.cover:hover > .cover__overlay {
-  opacity: 0.8;
-}
-
 @media screen and (max-width: 1024px) {
   .cover {
-    height: calc(100vh * 746 / 1024);
+    min-height: calc(100vw * 746 / 1024);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover {
+    min-height: 746px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .cover {
+    min-height: calc(100vw * 0.7);
   }
 }
 
 @media screen and (max-width: 320px) {
   .cover {
     margin-top: 64px;
-    height: 254px;
+    min-height: 254px;
   }
 }
