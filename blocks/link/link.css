@@ -1,5 +1,5 @@
 .link {
-  /* grid-area: "link"; */
+  grid-area: "link";
   background-color: #0278fe;
   max-width: 208px;
   height: fit-content;

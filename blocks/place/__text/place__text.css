@@ -1,5 +1,5 @@
 .place__text {
-  grid-area: "text";
+  grid-area: text;
   text-align: left;
   grid-row: 2 / 4;
   grid-column: 2 / 3;
